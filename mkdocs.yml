@@ -1,7 +1,10 @@
-site_name: Vrindavan API
+site_name: Vrindavan
 
 theme:
   name: material
+  icon:
+    logo: material/sprout
+    favicon: material/sprout
   palette:
     - scheme: default
       primary: green
