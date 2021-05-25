@@ -1,14 +1,10 @@
 # Architecture
 
-## REST API
+This is a follow along of [the API BluePrint Tutorial](https://apiblueprint.org/documentation/tutorial.html). 
 
-GET        /
+Checkout the [API Blueprint](/vrindavan.apib).
 
-`GET        /v1`
-
-`PUT        /v1/accounts/signin`
-
-`POST       /v1/accounts/signup`
+*TODO: Replace the apib file with a published link*
 
 
 
@@ -31,20 +27,6 @@ GET        /
 
 
 
-
-
-
-
-
-
-
-
-| Method      | URI                             | Description                                               |
-| ----------- | ------------------------------- | --------------------------------------------------------- |
-| `POST`      | /gardens/                       | Create a new garden. Returns the id of the new garden.    |
-| `GET`       | /gardens/**gid**                | Fetch the garden data                                     |
-| `PUT`       | /gardens/**gid**                | Update the garden data                                    |
-| `DELETE`    | /gardens/**gid**                | Delete the garden data                                    |
 
 
 

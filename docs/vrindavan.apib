@@ -1,0 +1,53 @@
+FORMAT: 1A
+
+# Vrindavan API
+
+Vrindavan API is backend REST API powering all the tech related to Vrindavan Gardens.
+
+# Group Gardens
+
+Resources related to gardens on the platform.
+
+## Garden Directory [/gardens/]
+
+### List accessible gardens [GET]
+
+Returns a list of garden ids.
+
+*TODO: Should it return actual garden resources with data?*
+
+*TODO: Does it make more sense to wrap the response in a dict?*
+
+All gardens are accessible for now.
+*TODO: Workout an auth model to restrict access.*
+
+
++ Response 200 (application/json)
+    [233, 3, 4, 2, 523, 745]
+
+### Create a new garden [POST]
+
+Create a new garden using the input provided in the JSON body.
+
+*TODO: List the different usecases for POST call including internal tooling*
+
+*TODO: Consider returning the body of the newly created Garden resource.*
+
++ Request (application/json)
+    {
+        "name": "Kanha's Vrindavan",
+        "day": 0
+        "plants": {
+            "carrot": {"count": 20, "seedlines": [23]}
+            "coriander": {"count": 10, "seedlines": [23, 21]}
+        }
+        "owner": "2ae23422342"
+    }
+
+
+
++ Response 201 (application/json)
+    {
+        "garden_id": "3fea390",
+    }
+
