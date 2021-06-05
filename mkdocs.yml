@@ -18,3 +18,38 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.instant
+nav:
+  - Vision: "vision.md"
+  - Gardens: 
+    - Overview: "gardens-overview.md"
+    - Goals: "gardens-goals.md"
+    - Development: "gardens-dev.md"
+    - Projects: "gardens-projects.md"
+  - Farms: 
+    - Overview: "farms-overview.md"
+    - Franchise: "farms-franchise.md"
+    - Development: "farms-dev.md"
+    - Handbook: "farms-handbook.md"
+  - Farmhouses: "farmhouses.md"
+  - Forests: "forests.md"
+  - Shelters: 
+    - Overview: "shelters-overview.md"
+
+
+#  Example:
+#
+#  - Vision: "vision.md"
+#  - Architecture: "arch.md"
+#  - Projects: 
+#     - Index: projects.md
+#     - Saraswati: saraswati.md
+#     - Radha: radha.md
+#     - Gayatri: gayatri.md
+#  - Contribute: "contribute.md"
+#  - Community: "community.md"
+
